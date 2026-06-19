@@ -64,5 +64,14 @@ Shopify (2026) *SEO checklist: 50 tips to optimize your website*. Available at: 
 
 SitePoint (n.d.) *The complete guide to HTML forms and constraint validation*. Available at: https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sitepoint.com%2Fhtml-forms-constraint-validation-complete-guide%2F&data=05%7C02%7Cst10534715%40rcconnect.edu.za%7C12ea5194a5a3425230dc08dece1f8e0c%7Ce10c8f44f469448fbc0dd781288ff01b%7C0%7C0%7C639174832135709469%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=2L%2FoKFsP8NGx7ZlGSGoOAg3QKp0UMmT7zOEnkgf2aJw%3D&reserved=0 (Accessed: 19 June 2026).
 
-sitemap
+added sitemap
+Website Sitemap
+
+- Home (`index.html`)
+- About Us  (`about us’)
+- Contact (`contact.html`)
+-service (‘services’)
+- Enquiry / Book Appointment(`enquiry.html`)
+
+- added robot.txt for part 3 seo
 
