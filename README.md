@@ -74,4 +74,5 @@ Website Sitemap
 - Enquiry / Book Appointment(`enquiry.html`)
 
 - added robot.txt for part 3 seo
+- netify https://prettyandclawed.netlify.app/
 
