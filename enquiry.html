@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pretty and Clawed</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;500&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff0f5;
+        }
+
+        header {
+            background-color: #ffe4ec;
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* LOGO STYLE */
+        .logo {
+            font-family: 'Great Vibes', cursive;
+            font-size: 50px;
+            color: #d63384;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        nav {
+            background-color: #ffb6c1;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 45px;
+            color: #ff1493;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .btn {
+            background-color: #ff69b4;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #ff1493;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            width: 25%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1 class="logo">Pretty and Clawed </h1>
+    <p>Your Beauty. Your Style. Your Nails.</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="service.html">Products</a>
+    <a href="contact.html">Contact</a>
+    <a href="enquiry.html">enquiry</a>
+</nav>
+
+
+
+
+<hr>
+<!-- SERVICES (TABLE USED FOR LAYOUT) -->
+<table width="100%" border="0">
+<tr align="center">
+       
+<td width="33%">
+<font>
+
+
+<h1>Service Enquiry</h1>
+<p>Please fill in the form below to enquire about our nail services.</p>
+<form>
+<label>Full Name:</label><br>
+<input type="text" name="name" required><br><br>
+<label>Email Address:</label><br>
+<input type="email" name="email" required><br><br>
+<label>Phone Number:</label><br>
+<input type="tel" name="phone"><br><br>
+<label>Select Service:</label><br>
+<select name="service">
+<option>Acrylic Nails</option>
+<option>Gel Nails</option>
+<option>Nail Art</option>
+<option>Custom Set</option>
+</select><br><br>
+<label>Preferred Appointment Date:</label><br>
+<input type="date" name="date"><br><br>
+<label>Your Message:</label><br>
+<textarea name="message" rows="5" cols="30"></textarea><br><br>
+<input type="submit" value="Submit Enquiry" style="background:ff69b4; color:white; padding:12px 25px; border:none; border-radius:5px; cursor:pointer;">
+</form>
+
+<footer>
+    <p>© 2026 Pretty and Clawed | simone </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
